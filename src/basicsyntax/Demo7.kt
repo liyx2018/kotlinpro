@@ -27,8 +27,18 @@ fun main(args: Array<String>) {
     for ((index, value) in items.withIndex()) {
         println("the element at $index is $value")
     }
+    println("------While循环---------------------")
     //While循环
-
+    var temp = 5
+    while (temp>0){
+        temp--
+        println("while循环的值："+temp)
+    }
+    println("------do While循环---------------------")
+    var temp1 = 7
+    do {
+        println("do while的do执行中"+temp1)
+    }while (temp1>8)
 
 
 }
