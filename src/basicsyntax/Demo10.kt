@@ -1,5 +1,7 @@
 package basicsyntax
 
+import classesaobjects.Demo1
+
 fun main(args: Array<String>) {
     doctorq@ for (i in 1..100) {
         doctorq2@ for (j in 1..5) {
