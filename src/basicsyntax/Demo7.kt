@@ -1,6 +1,9 @@
 package basicsyntax
 
+
 fun main(args: Array<String>) {
+
+
     //for循环
     val  items = listOf("apple","orange","bnana")
     println("-----item in items----------------------")
@@ -20,7 +23,7 @@ fun main(args: Array<String>) {
         println(i)
     }
     println("------i in 6 downTo 0 step 2---------------------")
-    for (i in 6 downTo 0 step 2) {
+    for (i in 6 downTo  0 step 2) {
         println(i)
     }
     println("------(index, value) in array.withIndex()---------------------")

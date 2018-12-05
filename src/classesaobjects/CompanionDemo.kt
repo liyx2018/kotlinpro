@@ -3,24 +3,26 @@ package classesaobjects
 //Kotlin伴随对象的使用
 class CompanionDemo {
 
-  companion object {
+    init {
+        println("---init初始化---" )
+    }
 
-      fun action(){
-          println("-----action---")
-      }
+    companion object Factory{
+        fun create(): CompanionDemo = CompanionDemo()
 
-      var name: String ="liyaxi"
+        val name: String = "姓名"
 
-  }
-
+    }
 
 
 }
 
 fun main(args: Array<String>) {
 
-    CompanionDemo.action()
-    println("--------------"+CompanionDemo.name)
+    CompanionDemo.create()
+
+
+    println("--------------" + CompanionDemo.name)
 
 
 }

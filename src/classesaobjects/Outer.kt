@@ -5,9 +5,16 @@ class Outer {
 
     var name: String = "liyaxi"
 
-    inner class Inner{
-        fun isfool() {
-            println(""+name)
+    private val bar: Int = 1
+
+    inner class Inner {
+        fun foo() {
+
+            val a = this@Outer
+            val b = this@Inner
+            val c = this
+
+            println("--------------"+bar)
         }
     }
 

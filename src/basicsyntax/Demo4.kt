@@ -3,6 +3,7 @@ package basicsyntax
 fun main(args: Array<String>) {
     println("a and b maxValue is ${max(5,3)}")
     println("a and b mimValue is ${min(10,12)}")
+    println("a and n maxvalue is ${max(2,9)}")
 }
 
 fun max(a: Int, b: Int): Int {

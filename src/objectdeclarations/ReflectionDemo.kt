@@ -1,0 +1,8 @@
+package objectdeclarations
+
+class ReflectionDemo {
+
+
+
+
+}

@@ -2,8 +2,8 @@ package basicsyntax
 
 fun main(args: Array<String>) {
     fun printLength(obj: Any) {
-//        println("'$obj' string length is ${getStringLength(obj) ?: "... err, not a string"} ")
-//        println("$obj string length is ${getStringLength01(obj) ?: "......错误数据"}" )
+        println("'$obj' string length is ${getStringLength(obj) ?: "... err, not a string"} ")
+        println("$obj string length is ${getStringLength01(obj) ?: "......错误数据"}" )
         println("$obj string length is ${getStringLength02(obj) ?: "......错误数据"}" )
     }
 
