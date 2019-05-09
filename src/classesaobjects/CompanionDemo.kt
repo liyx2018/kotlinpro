@@ -14,7 +14,6 @@ class CompanionDemo {
 
     }
 
-
 }
 
 fun main(args: Array<String>) {
