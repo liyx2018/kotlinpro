@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     println("--------------------------安全调用 ?.-------------------------------------------------")
     //安全调用 ?. 如果 name 不为空则返回长度，否则返回空
-    var name: String? = null
+    var name: String? = "收银"
     println("==========" + name?.length)
 
 
@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 
     println("--------------------------非空断言!!.-------------------------------------------------")
     //非空断言!!. 对象为null时，会抛空指针  一般不建议使用
-    var age: String? = "hello"
+    var age: String? = "你好啊"
     println(age!!.length)
 
 

@@ -9,9 +9,15 @@ class Demo11 {
  * 解构声明
  */
 
+
+//数据类data class   主构造函数必须包含一个参数，且标识为val或var  可以声明为 abstract, open, sealed 或者 inner  不能继承其他类 (但是可以实现接口)
 data class Person(var name: String,var age: Int)
 
 fun main(args: Array<String>) {
+
+    //数据类使用
+
+
 
     //----------第一种用法--------------
    var (name,age )=Person("liayxi",20)
