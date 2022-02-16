@@ -1,4 +1,4 @@
-package exercise
+package exercise.standard
 
 /**
  * 内置函数的使用
@@ -16,14 +16,14 @@ class standarddemo {
     }
 
     fun withFunction(){
-        val stu = Student(name = "kotlin",age = 12)
+        val stu = Student(name = "kotlin", age = 12)
         with(stu){
             println("my name is $name,age is $age")
         }
     }
 
     fun runFunction(){
-        val stu = Student(name = "kotlin",age = 12)
+        val stu = Student(name = "kotlin", age = 12)
         stu?.run {
             println("my name is $name,age is $age")
         }
@@ -40,7 +40,7 @@ class standarddemo {
     }
 
     fun applyFunction(){
-        val stu = Student(name = "kotlin",age = 12)
+        val stu = Student(name = "kotlin", age = 12)
         val s =stu?.apply {
             println("my name is $name,age is $age")
         }
